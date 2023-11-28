@@ -2,11 +2,11 @@
 #include<conio.h>
 
 void main(){
-	double amount,surcharge,unit;
+	float amount,surcharge,unit;
 
 	clrscr();
 	  printf("Enter the value of unit:-");
-	  scanf("%lf",&unit);
+	  scanf("%f",&unit);
 
 	  if(unit<=50)
 	  {
@@ -27,7 +27,7 @@ void main(){
 
 	  surcharge = amount*20/100;
 
-	  printf("Electricity bill is:%lf",surcharge+amount);
+	  printf("Electricity bill is:%f",surcharge+amount);
 
 
 
